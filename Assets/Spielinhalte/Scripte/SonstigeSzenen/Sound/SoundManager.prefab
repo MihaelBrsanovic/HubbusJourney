@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2930240851696735587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2930240851696735585}
+  - component: {fileID: 2930240851696735584}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2930240851696735585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2930240851696735587}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2930240851696735584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2930240851696735587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d396132e983ff1f4e90a6f4e9023acc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Kampf-Musik
+    clip: {fileID: 8300000, guid: aaf295b92e33ce344af708b79652061d, type: 3}
+    output: {fileID: 24300002, guid: 3250fbcec08dc3d4dbcaaa7b2c592510, type: 2}
+    volume: 0.35
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Boss-Musik
+    clip: {fileID: 8300000, guid: 5105a7bff70b02c41bbd25a74ed81099, type: 3}
+    output: {fileID: 24300002, guid: 3250fbcec08dc3d4dbcaaa7b2c592510, type: 2}
+    volume: 0.7
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Background-Musik
+    clip: {fileID: 8300000, guid: deb3c2c96802ac44288808daa89dab6e, type: 3}
+    output: {fileID: 24300002, guid: 3250fbcec08dc3d4dbcaaa7b2c592510, type: 2}
+    volume: 0.697
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Shop-Musik
+    clip: {fileID: 8300000, guid: 058f8760b254e2946ba043f51888b9f4, type: 3}
+    output: {fileID: 24300002, guid: 3250fbcec08dc3d4dbcaaa7b2c592510, type: 2}
+    volume: 0.697
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Lighter_Effect
+    clip: {fileID: 8300000, guid: 64196fb3397a9474c8f9207e4cec541a, type: 3}
+    output: {fileID: 24300002, guid: 3250fbcec08dc3d4dbcaaa7b2c592510, type: 2}
+    volume: 0.697
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
